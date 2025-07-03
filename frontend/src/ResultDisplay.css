@@ -1,0 +1,30 @@
+.result-box {
+  text-align: left;
+  background-color: #f4f4f4;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #4b0082;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.result-box small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.result-box.slide-in {
+  animation: slideIn 0.5s ease forwards;
+}
