@@ -90,6 +90,7 @@ SERPER_API_KEY=your_serper_dev_api_key
   npm start
 
 **Web Architecture**
+![Query Agent Architecture](./Architecture.png)
 
 
 
