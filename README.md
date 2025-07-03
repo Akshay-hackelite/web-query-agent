@@ -43,33 +43,11 @@ Vector Store: MongoDB Atlas (vector index on embedding)
 
 Search API: Serper.dev (free Brave search)
 
-**Folder Structure**
 
-web-agent/
-├── backend/
-│   ├── services/
-│   │   ├── classify.js
-│   │   ├── embed.js
-│   │   ├── scrape.js
-│   │   ├── summarize.js
-│   │   └── db.js
-│   ├── routes/
-│   │   └── query.js
-│   ├── app.js
-│   └── .env
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── QueryForm.js
-│   │   ├── ResultDisplay.js
-│   │   ├── Loader.js
-│   │   ├── api.js
-│   │   └── App.css
-│   └── public/index.html
-└── README.md
 
 **🔐 Environment Variables**
 Create a .env file in backend/:
+
 MONGO_URI=your_mongodb_connection_string
 SERPER_API_KEY=your_serper_dev_api_key
 
